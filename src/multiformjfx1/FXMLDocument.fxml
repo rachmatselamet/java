@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="acp" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multiformjfx1.FXMLDocumentController">
+    <children>
+      <Label layoutX="21.0" layoutY="26.0" text="pembeli" />
+      <Label layoutX="21.0" layoutY="67.0" text="luas tanah" />
+      <Label layoutX="21.0" layoutY="106.0" text="jenis rumah" />
+      <TextField fx:id="txtpembeli" layoutX="117.0" layoutY="22.0" />
+      <TextField fx:id="txtluas" layoutX="117.0" layoutY="63.0" />
+      <ChoiceBox fx:id="chbjenis" layoutX="117.0" layoutY="102.0" prefWidth="150.0" />
+      <Button fx:id="btnmodal" layoutX="23.0" layoutY="145.0" mnemonicParsing="false" onAction="#modalklik" text="modal" />
+      <Button fx:id="btnmodel" layoutX="91.0" layoutY="145.0" mnemonicParsing="false" onAction="#modelklik" text="modeless" />
+      <Button fx:id="btnhapus" layoutX="174.0" layoutY="145.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus" />
+      <Button fx:id="btnkeluar" layoutX="240.0" layoutY="145.0" mnemonicParsing="false" onAction="#keluarklik" text="keluar" />
+      <Button fx:id="btnubahharga" layoutX="289.0" layoutY="102.0" mnemonicParsing="false" onAction="#ubahhargaklik" text="ubah harga" />
+    </children>
+</AnchorPane>
